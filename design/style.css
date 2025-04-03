@@ -165,3 +165,52 @@ body {
 .jeanette .card-description, .kira .card-description{
     color:var(--grey-400);
 }
+
+@media screen and (min-width: 360px) {
+    body{
+        padding-inline: 60px;
+        padding-block: 98px;
+    }
+
+    .testimonials-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-areas: 
+        "daniel daniel"
+        "jonathan jeanette"
+        "patrick patrick"
+        "kira kira";
+      }
+      .daniel{
+        grid-area: daniel;
+      }
+      .jonathan{
+        grid-area: jonathan;
+      }
+      .jeanette{
+        grid-area: jeanette;
+      }
+      .patrick{
+        grid-area: patrick;
+      }
+      .kira{
+        grid-area: kira;
+      }
+
+}
+
+@media screen and (min-width: 900px) {
+    body{
+        padding-inline: 163px;
+        padding-block: 175px;
+    }
+    .testimonials-main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira";
+      }
+}
