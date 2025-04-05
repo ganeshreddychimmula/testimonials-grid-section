@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). 
 
 ## Table of contents
 
@@ -26,6 +26,7 @@ Users should be able to:
 
 ![Mobile Scrrenshot](./screenshots/mobile.png)
 ![Tablet Scrrenshot](./screenshots/tablet.png)
+![laptop Scrrenshot](./screenshots/laptop.png)
 
 
 ### Links
@@ -42,16 +43,6 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
-
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-
 
  [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
